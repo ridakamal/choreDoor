@@ -1,0 +1,65 @@
+.body{
+    background-color:darkblue;
+}
+.header{
+    background-color: #00ffff;
+    text-align: center;
+}
+.instruction-title {
+    font-size: 24px;
+   text-align: center;
+}
+.instruction-row{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.instruction-number{
+    font-size: 36px;
+    text-align: center;
+    padding: 25px;
+    color: #00ffff;
+
+}
+.instruction-text {
+    font-size: 16;
+    text-align: justify;
+    padding: 10px;
+    color: #ffff;
+}
+.door-row{
+    text-align: center;
+}
+.title-row {
+    margin-top: 70;
+    margin-bottom: 21px;
+/*this needs to be done */
+    flex-direction:row-reverse; 
+    text-align: center;
+    font-size: 18px;
+    color: #00ffff;
+    font-family:sans-serif;
+}
+.doorFrame {
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.start-now{
+    margin : auto;
+    width : 120px;
+    height : 49px;
+    font-family : ‘Work Sans’;
+    background-color : #eb6536;
+    padding-top : 18px;
+    font-size : 18px;
+    text-align : center;
+    color : #010165;
+    margin-bottom : 21px;
+    cursor : pointer;  
+}
+.hidden {
+    padding: 5px;
+    display: flex;
+    size: 10px;
+}
